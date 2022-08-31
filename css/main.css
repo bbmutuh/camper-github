@@ -280,6 +280,12 @@ h3,
     grid-template-columns: repeat(20, 1fr);
     grid-template-rows: repeat(19, 1fr);
 }
+.grid190-190 {
+    width: 380px;
+    height: 380px;
+    grid-template-columns: repeat(19, 1fr);
+    grid-template-rows: repeat(19, 1fr);
+}
 .grid150-90 {
     width: 300px;
     height: 180px;
