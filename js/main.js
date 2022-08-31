@@ -88,7 +88,7 @@ $(function (){
         });
     },100);
 
-    $('.menu-item[data-menu-item-id="building"]').trigger('click');
-    $('.menu-item[data-menu-item-id="outside-right"]').trigger('click');
+    // $('.menu-item[data-menu-item-id="building"]').trigger('click');
+    // $('.menu-item[data-menu-item-id="outside-right"]').trigger('click');
 });
 
