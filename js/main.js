@@ -43,6 +43,14 @@ $(function (){
         }
     );
 
+    $('[data-zone-menu="multiple"]').hover(
+        function(){
+            $(this).next().find('[data-zone-menu]').trigger('mouseover');
+        }, function(){
+            $(this).next().find('[data-zone-menu]').trigger('mouseout');
+        }
+    );
+
     $('.building-zone').hover(
         function(){
             $('.popup[data-zone-id="'+$(this).attr('data-zone-id')+'"]').addClass('hover');
@@ -89,6 +97,6 @@ $(function (){
     },100);
 
     $('.menu-item[data-menu-item-id="building"]').trigger('click');
-    $('.menu-item[data-menu-item-id="outside-back"]').trigger('click');
+    $('.menu-item[data-menu-item-id="outside-right"]').trigger('click');
 });
 

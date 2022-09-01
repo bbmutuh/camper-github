@@ -101,7 +101,7 @@ h3,
 }
 .building-container {
     display: flex;
-    gap: 40px;
+    gap: 20px 40px;
     flex-wrap: wrap;
 }
 .building-sidebar {
@@ -109,7 +109,7 @@ h3,
     max-width: 600px;
 }
 .building-sidebar h3 {
-    margin-top: 4px;
+    margin: 4px 0 0;
 }
 .building-content {
     min-width: 400px;
@@ -153,14 +153,14 @@ h3,
 
 
 .area-menu {
-    margin: 10px 0;
+    margin: 8px 0;
 }
 .area-menu-item {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 40px;
-    padding: 0 15px;
+    min-height: 40px;
+    padding: 7px 15px;
     cursor: pointer;
     border: 1px solid var(--gray-3);
     border-radius: 5px;
@@ -192,7 +192,7 @@ h3,
     border-color: var(--black);
 }
 .area-menu-item-arrow {
-    padding-top: 2px;
+    height: 20px;
 }
 .area-menu-item-arrow svg {
     min-width: 18px;
